@@ -43,4 +43,4 @@ Update instructions:
    $ unzip jarjar-src-$VERSION.zip
    $ mv jarjar-$VERSION src-distribution
 7. Update jarjar.gypi 'jarjar_javalib_file' with path to new Java jar, eg:
-   'jarjar_javalib_file': '<(DEPTH)/clank/third_party/jarjar/binary-distribution/jarjar-$VERSIONjar',
+   'jarjar_javalib_file': '<(DEPTH)/third_party/jarjar/binary-distribution/jarjar-$VERSION.jar',

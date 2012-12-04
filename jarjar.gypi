@@ -45,8 +45,8 @@
   },
   'variables': {
     'output_jar_file': '<(PRODUCT_DIR)/lib.java/chromium_repackaged_<(_target_name).jar',
-    'jarjar_build_file': '<(DEPTH)/clank/third_party/jarjar/build.xml',
-    'jarjar_javalib_file': '<(DEPTH)/clank/third_party/jarjar/binary-distribution/jarjar-1.4.jar',
+    'jarjar_build_file': '<(DEPTH)/third_party/jarjar/build.xml',
+    'jarjar_javalib_file': '<(DEPTH)/third_party/jarjar/binary-distribution/jarjar-1.4.jar',
     'result_package%': 'org.chromium.repackaged.@0',
   },
   'actions': [
